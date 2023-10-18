@@ -1,24 +1,33 @@
-document.getElementById('registrationForm').addEventListener('submit', function(event) {
-    event.preventDefault();
+const express = require('express');
+const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+const session = require('express-session');
 
-    var username = document.getElementById('username').value;
-    var email = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
-    var confirmPassword = document.getElementById('confirmPassword').value;
+const app = express();
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(session({ secret: 'your-secret-key', resave: true, saveUninitialized: true }));
 
-    var errorMessage = '';
+mongoose.connect('mongodb://localhost:27017/your-database-name', { useNewUrlParser: true, useUnifiedTopology: true });
+const User = mongoose.model('User', { username: String, password: String });
 
-    if (password !== confirmPassword) {
-        errorMessage = 'Passwords do not match!';
-    } else if (password.length < 6) {
-        errorMessage = 'Password must be at least 6 characters long.';
-    }
-
-    if (errorMessage) {
-        document.getElementById('error-message').textContent = errorMessage;
+app.post('/login', async (req, res) => {
+    const { username, password } = req.body;
+    const user = await User.findOne({ username, password });
+    if (user) {
+        req.session.userId = user._id;
+        res.send('Login successful!');
     } else {
-        document.getElementById('error-message').textContent = '';
-        alert('Registration successful!');
-        // You can add code here to send registration data to the server.
+        res.send('Invalid credentials.');
     }
+});
+
+app.get('/logout', (req, res) => {
+    req.session.destroy((err) => {
+        if (err) throw err;
+        res.send('Logged out successfully!');
+    });
+});
+
+app.listen(3000, () => {
+    console.log('Server is running on port 3000');
 });
