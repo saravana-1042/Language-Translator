@@ -6,7 +6,7 @@ app = Flask(__name__)
 # MongoDB configuration
 client = MongoClient('mongodb://localhost:27017/')
 db = client['MyDb']  
-collection = db['users']
+collection = db['User']
 
 @app.route('/')
 def signup():
