@@ -8,6 +8,10 @@ client = MongoClient('mongodb://localhost:27017/')
 db = client['MyDb']  
 collection = db['User']
 
+@app.route('/')
+def signup():
+    return render_template('index.html')
+
 @app.route('/sign')
 def signup():
     return render_template('signup.html')
