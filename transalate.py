@@ -9,7 +9,7 @@ db = client['MyDb']
 collection = db['User']
 
 @app.route('/')
-def signup():
+def index():
     return render_template('index.html')
 
 @app.route('/sign')
@@ -47,9 +47,6 @@ def login_page():
     else :
         return render_template('login.html')
 
-@app.route('/')
-def index():
-    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
