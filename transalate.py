@@ -43,10 +43,12 @@ def login_page():
     password = request.form['password']
     existing_user1 = collection.find_one({'username': username,"password":password})
     if existing_user1:
-        return render_template('index.html')
+        return render_template('home.html')
     else :
         return render_template('login.html')
 
-
+@app.route('/home')
+def home():
+    return render_template('home.html')
 if __name__ == '__main__':
     app.run(debug=True)
