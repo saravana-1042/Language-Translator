@@ -20,7 +20,7 @@ Domain Name System (DNS): To associate a domain name with the VM's IP address.
 Before setting up the project, ensure you have the following:
 An Azure account: You'll need an Azure account to create and manage Azure services.
 An Azure Virtual Machine: Set up an Azure VM to host the server-side code for your application.
-A registered domain: Register a domain name (e.g., example.com) with a domain registrar and configure the DNS settings to point to your Azure VM's IP address.
+A registered domain: Register a domain name transapp.southindia.cloudapp.azure.com with a domain registrar and configure the DNS settings to point to your Azure VM's IP address.
 
 # Setup Instructions
 
@@ -42,7 +42,7 @@ Set up SSL certificates for your domain to enable HTTPS for secure communication
 
 # Usage
 
-Visit your website using your registered domain (e.g., https://example.com).
+Visit your website using your registered domain (transapp.southindia.cloudapp.azure.com).
 Enter text in the source language and select the target language.
 Click the translate button to send the translation request to your Azure server.
 Display the translation result on the web page.
