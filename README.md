@@ -64,6 +64,9 @@ Display the translation result on the web page.
 
 ![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/d93e380e-a8dd-49f6-a4c7-97e3e0628533)
 
+![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/e8e71fc3-e36e-4546-8c06-d623c91de894)
+
+
 
 
 
