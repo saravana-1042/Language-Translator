@@ -48,6 +48,9 @@ Click the translate button to send the translation request to your Azure server.
 Display the translation result on the web page.
 
 
+# Demo Video
+https://drive.google.com/file/d/1WmoDvkxZhlHONLw7fPc_P_ZlA5wx8Ji4/view?usp=sharing
+
 # Demo Images
 
 ![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/bd6bf26b-430f-4497-a245-2654f63a0c85)
