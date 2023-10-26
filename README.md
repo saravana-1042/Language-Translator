@@ -52,4 +52,7 @@ Display the translation result on the web page.
 
 ![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/bd6bf26b-430f-4497-a245-2654f63a0c85)
 
+![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/5144920c-880b-495c-9fda-5ff19b349e5a)
+
+
 
