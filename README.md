@@ -48,11 +48,14 @@ Click the translate button to send the translation request to your Azure server.
 Display the translation result on the web page.
 
 
-#Demo Images
+# Demo Images
 
 ![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/bd6bf26b-430f-4497-a245-2654f63a0c85)
 
 ![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/5144920c-880b-495c-9fda-5ff19b349e5a)
+
+![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/85bdd839-e94e-4ed0-b930-6caa9e56d8ec)
+
 
 
 
