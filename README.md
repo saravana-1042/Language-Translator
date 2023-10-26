@@ -47,7 +47,9 @@ Enter text in the source language and select the target language.
 Click the translate button to send the translation request to your Azure server.
 Display the translation result on the web page.
 
-# Acknowledgments
 
-Mention any libraries, tools, or resources you used during the development process.
+#Demo Images
+
+![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/bd6bf26b-430f-4497-a245-2654f63a0c85)
+
 
