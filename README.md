@@ -50,10 +50,17 @@ Resource Group: Organizes and manages Azure resources.
 Monitor Insights: Provides monitoring and analytics for the application.
 *Azure Language Services: Azure Language Services include a set of APIs and services that enable natural language processing (NLP) capabilities in applications
 Demo Screenshots
+![1](https://github.com/saravana-1042/Language-Translator/assets/145033609/52de116b-e1fe-44b9-b5e9-9e5222f0fc91)
+![2](https://github.com/saravana-1042/Language-Translator/assets/145033609/525fee22-bc63-49bc-a009-60225b2e4b07)
+![3](https://github.com/saravana-1042/Language-Translator/assets/145033609/07301e84-3c04-44a2-9cd9-98774a54f999)
+![4](https://github.com/saravana-1042/Language-Translator/assets/145033609/646d6b49-af21-42fd-9560-64bd8b583ac7)
+![5](https://github.com/saravana-1042/Language-Translator/assets/145033609/af1697c9-2814-4be2-8e81-1389df838723)
+![6](https://github.com/saravana-1042/Language-Translator/assets/145033609/2d513316-f2aa-4179-8d8f-52abe1d9c505)
+![7](https://github.com/saravana-1042/Language-Translator/assets/145033609/7442dc3a-d9c1-47cc-b460-60a8780feb55)
 
 
 Demo Video
-
+https://www.youtube.com/watch?v=rZbaIeuINew
 
 Project URL
 
