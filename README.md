@@ -1,44 +1,62 @@
-### This repository is no longer maintained!
+Language translator
+Overview
+language translator is a tool or system  that automatically translates text or speech from one language to another using html,css,javascript and azure services as programming tools
+Table of Contents
+Features
+Installation
+Usage
+Technologies Used
+Azure Services
+Demo Screenshots
+Demo Video
+Project URL
+Contributing
+Features
+User Authentication: Secure user registration and login functionalities.
+language models: it uses many languages for translation
+Abilities : voice and speech recognition 
+Installation
+Clone the repository: bash git clone https://github.com/saravana-1042/Language-Translator
 
-**For the most up to date test app to get you started on Heroku, head on over to [`node-js-getting-started`](https://github.com/heroku/node-js-getting-started).**
+Install dependencies: bash npm install
 
----
+Set up the database: bash
 
-# node-js-sample
+If not already created, create the SQLite database
+touch database.db
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+Run database migrations
+npm run migrate
 
-## Running Locally
+Start the application: bash npm start
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+Usage
+Visit http://localhost:5000 in your web browser.
+Use the provided login and register features.
+Explore the health care products and use the cash on delivery option.
+Technologies Used
+HTML
+CSS
+JavaScript
+Node.js
+SQLite3 "sequelize"
+Azure Services
+The project leverages the following Azure services:
 
-```sh
-git clone git@github.com:heroku/node-js-sample.git # or clone your own fork
-cd node-js-sample
-npm install
-npm start
-```
+Web App: Hosts the Node.js application.
+Virtual Networking: Manages network traffic and security.
+Virtual Networking Integration: Connects various resources within a virtual network.
+Resource Group: Organizes and manages Azure resources.
+Monitor Insights: Provides monitoring and analytics for the application.
+*Azure Language Services: Azure Language Services include a set of APIs and services that enable natural language processing (NLP) capabilities in applications
+Demo Screenshots
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
+Demo Video
 
-```
-heroku create
-git push heroku master
-heroku open
-```
 
-Alternatively, you can deploy your own copy of the app using the web-based flow:
+Project URL
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## Documentation
 
-For more information about using Node.js on Heroku, see these Dev Center articles:
 
-- [10 Habits of a Happy Node Hacker](https://blog.heroku.com/archives/2014/3/11/node-habits)
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
