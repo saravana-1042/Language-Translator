@@ -1,79 +1,44 @@
-# Language-Translator
+### This repository is no longer maintained!
 
-# Overview
+**For the most up to date test app to get you started on Heroku, head on over to [`node-js-getting-started`](https://github.com/heroku/node-js-getting-started).**
 
-This project demonstrates the creation of a language translator web application using HTML, CSS, JavaScript, and Azure services.
-The application allows users to input text in one language and obtain a translation into another language.
-It leverages Azure services to perform the actual translation.
+---
 
-# Technologies Used
+# node-js-sample
 
-HTML: For the structure of the web page.
-CSS: For styling and layout.
-JavaScript: For client-side logic and interactions.
-Azure Services: To provide translation capabilities.
-Azure Virtual Machine (VM): To host the server-side code.
-Domain Name System (DNS): To associate a domain name with the VM's IP address.
+A barebones Node.js app using [Express 4](http://expressjs.com/).
 
-# Prerequisites
+## Running Locally
 
-Before setting up the project, ensure you have the following:
-An Azure account: You'll need an Azure account to create and manage Azure services.
-An Azure Virtual Machine: Set up an Azure VM to host the server-side code for your application.
-A registered domain: Register a domain name transapp.southindia.cloudapp.azure.com with a domain registrar and configure the DNS settings to point to your Azure VM's IP address.
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
-# Setup Instructions
+```sh
+git clone git@github.com:heroku/node-js-sample.git # or clone your own fork
+cd node-js-sample
+npm install
+npm start
+```
 
-# Front-end (HTML, CSS, JavaScript)
+Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-Place your HTML, CSS, and JavaScript files in a directory on a web server or hosting service. You can use any web hosting service for this purpose.
-Ensure you have a form for users to input text to be translated and a display area for the translated text.
-In your JavaScript code, use the Azure Translator API to send translation requests to your Azure server.
+## Deploying to Heroku
 
-# Back-end (Azure VM)
+```
+heroku create
+git push heroku master
+heroku open
+```
 
-Set up an Azure Virtual Machine (VM) with your preferred operating system (e.g., Ubuntu, Windows).
-Install a web server (e.g., IIS) and configure it to serve the back-end code.
+Alternatively, you can deploy your own copy of the app using the web-based flow:
 
-# DNS Configuration
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-Configure your DNS settings for your registered domain name to point to the IP address of your Azure VM.
-Set up SSL certificates for your domain to enable HTTPS for secure communication.
+## Documentation
 
-# Usage
+For more information about using Node.js on Heroku, see these Dev Center articles:
 
-Visit your website using your registered domain (transapp.southindia.cloudapp.azure.com).
-Enter text in the source language and select the target language.
-Click the translate button to send the translation request to your Azure server.
-Display the translation result on the web page.
-
-
-# Demo Video
-https://drive.google.com/file/d/1WmoDvkxZhlHONLw7fPc_P_ZlA5wx8Ji4/view?usp=sharing
-
-# Demo Images
-
-![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/bd6bf26b-430f-4497-a245-2654f63a0c85)
-
-![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/5144920c-880b-495c-9fda-5ff19b349e5a)
-
-![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/85bdd839-e94e-4ed0-b930-6caa9e56d8ec)
-
-![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/660df4fe-d858-48c9-9977-49af467afbd0)
-
-![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/149b2a94-ec12-467c-a7f7-6de68c2f7a34)
-
-![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/17be8eb8-d7be-420b-9861-bb9fe0225b00)
-
-![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/d93e380e-a8dd-49f6-a4c7-97e3e0628533)
-
-![image](https://github.com/saravana-1042/Language-Translator/assets/145033609/e8e71fc3-e36e-4546-8c06-d623c91de894)
-
-
-
-
-
-
-
-
-
+- [10 Habits of a Happy Node Hacker](https://blog.heroku.com/archives/2014/3/11/node-habits)
+- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
+- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
+- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
