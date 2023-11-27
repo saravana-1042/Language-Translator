@@ -8,6 +8,10 @@ app.get('/', function(request, response) {
   res.sentFile(path.join(__dirname,'public','index.html'));
 })
 
+app.get('/chat', function(request, response) {
+  res.sentFile(path.join(__dirname,'public','chat.html'));
+})
+
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
 })
